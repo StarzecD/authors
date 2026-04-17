@@ -1,0 +1,21 @@
+:root{
+    --gold-text: rgb(203, 201, 198);
+}
+body{
+    background-image: url(Images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    color: var(--gold-text)
+}
+.container{
+    background-color: rgba(76, 51, 16, 0.804);
+    border: 5px solid rgba(32, 18, 3, 0.627)
+}
+header{
+    background-color: rgba(66, 31, 15, 0.789);
+}
+a{
+    text-decoration-style: none;
+    color: var(--gold-text)
+}

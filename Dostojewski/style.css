@@ -1,0 +1,61 @@
+:root{
+    --gold-text: #d5c2a9;
+}
+body{
+    background-image: url(images/background.jpg);
+    margin-top: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    background-color: rgba(73, 34, 34, 0.849);
+    border: 5px solid rgba(97, 35, 2, 0.733);
+    backdrop-filter: blur(5px);
+}
+
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(57, 25, 25);
+}
+
+.subtitle{
+    color: var(--gold-text)
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--gold-text)
+}
+a{
+    color: var(--gold-text)
+}
+
+
+.text{
+    color: var(--gold-text)
+}
+.text::first-letter {
+    font-size: 200%;
+    color: rgb(97, 35, 2);
+    float: left;
+    margin-top: -15px; 
+    margin-right: 3px;
+    margin-bottom: -5px; 
+}
+#mainpic{
+    padding-bottom: 30px;
+}
+.synergy{
+    color:var(--gold-text)
+}
+
+
+
+/* BIESY SPECYFIKACJA */
+.demons{
+    max-width: 700px;
+    display: block;
+    outline: 5px solid rgb(97, 35, 2);
+    outline-offset: -5px; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
