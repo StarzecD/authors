@@ -2,7 +2,7 @@
     --white-text: rgb(234, 242, 249);
 }
 body{
-    background-image: url("Images/marcus-aurelius-8062793_1280.jpg");
+    background-image: url("images/marcus-aurelius-8062793_1280.jpg");
     background-attachment: fixed;
 }
 .container{
