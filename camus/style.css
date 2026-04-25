@@ -1,0 +1,16 @@
+:root{
+    --gray-text: rgb(44, 48, 52);
+}
+body{
+    background-image: url(images/background.jpeg);
+    background-attachment: fixed;
+}
+.container{
+    background-color: rgba(162, 170, 177, 0.675);
+    color: var(--gray-text);
+    border: 5px solid rgb(255, 255, 255)
+}
+a{
+    text-decoration-style: none;
+    color: var(--gray-text)
+}
